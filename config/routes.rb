@@ -1,4 +1,6 @@
 RailsApp::Application.routes.draw do
+  get "pint_and_pie/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +50,7 @@ RailsApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'pintandpie#index'
+  root :to => 'pint_and_pie#index'
 
   # See how all your routes lay out with "rake routes"
 
